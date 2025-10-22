@@ -1,81 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>LOGIN</title>
-        <style>
-            body {
-                font-family: arial, sans-serif;
-                background: #373b57;
-                color: #fff;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                margin: 0;
-            }
-            .login-box {
-                background: #2b2b2b;
-                padding: 20px 30px;
-                border-radius: 10px;
-                box-shadow: 0 0 15px rgba(0,0,0,5);
-                width: 300px;
-                text-align: center;
-            }
-            input[type="text"],
-            input[type="password"] {
-                background: #444;
-                color:white;
-            }
-            button {
-                padding: 10px;
-                width: 100%;
-                background: yellowgreen;
-                border-radius: 5px;
-                cursor: pointer;
-                font-weight: bold;
-                color: aliceblue;
-                transition: 0.3s;
-            }
-            button:hover {
-                background: green;
-            }
-            #hasil {
-                margin-top: 15px;
-                font-size: 14px;
-            }
-            #hasil span {
-                animation: fadeIn 0.8s ease-in-out;
-            }
-            @keyframes fadeIn {
-                from { opacity: 0; transform: scale(0.8);}
-                to { opacity: 1; transform: scale(1);}
-            }
-        </style>
+        <title>profil</title>
     </head>
     <body>
-    <form onsubmit="return cekLogin ()">
-        <label>Masukan Nama : </label><br>
-        <input type="text" id="nama"><br>
-        <label>Masukan Password : </label><br>
-        <input type="password" id="password"><br><br><br>
-        <button type="submit"> masuk </button>
-    </form>
-
-    <p id="hasil"></p>
-
-    <script>
-        function cekLogin() {
-            var namaSiswa = document.getElementById("nama").value;
-            var passSiswa = document.getElementById("password").value;
-
-                if (namaSiswa == "Admin" && passSiswa == "12345")  {
-                    alert("Login berhasil\n Selamat Datang ADMIN")
-                } else {
-                    alert("Login gagal\n username atau password salah")
-                }
-            
-                return false; // cegah reload
-        }
-    </script>
+   <h1>PROFIL SISWA
+       <P>NAMA: NAYAKA AMMARULLOH SA'UM RAHARJA
+            KELAS: XI RPL</P>
+           <h1>PEKERJAAN YANG PERNAH SAYA KERJAKAN
+               <p>
     </body>
+
 </html>

@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>tombol</title>
+    <script>
+        alert("selamat atang di tutoril belajar havascript")
+
+        function sayHello(){alert("hello!");}
+    </script>
+    </head>
+    <body>
+        <button onclick="sayHello()">tekan</button>
+    </body>
+</html>
